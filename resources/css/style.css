@@ -23,7 +23,7 @@ header .logo {
   align-items: center;
   padding: 16px 24px;
   flex: 1;
-  width: 100%;
+  width: 1300px;
 }
 
 .logo img {
@@ -36,7 +36,8 @@ header .logo {
 .logo span {
 }
 
-span h1 {
+h1 {
+  font-weight: bold;
 }
 
 
@@ -50,20 +51,23 @@ span h1 {
 }
 
 nav ul {
-  display: flex;
   margin-right: 24px;
-}
-
-nav li {
-  padding-left: 3.5rem;
+  float: right;
   display: flex;
+  align-items: flex-end;
+  width: 1300px;
 }
 
-nav a {
+ul li {
+  padding-left: 3.5rem;
+  float: right;
+}
+
+a {
   display: flex;
   margin-left: 16px;
   vertical-align: bottom;
-  align-self: flex-end;
+  text-align: right;
 }
 
 .intro {
@@ -84,7 +88,6 @@ nav a {
 }
 
 .learnright {
-  display: flex;
   flex-direction: column;
   float: left;
 }
