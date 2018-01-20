@@ -3,7 +3,10 @@
 
 html {
   font-family: "Avenir", sans-serif;
-  max-width: 1300px;
+}
+
+body {
+  width: 1367px;
 }
 
 .sitecontainer {
@@ -11,7 +14,6 @@ html {
 }
 
 header {
-  width: 1300px;
   border-bottom: solid 1px #c6c1c1;
   height: 64px;
 
@@ -22,8 +24,7 @@ header .logo {
   display: flex;
   align-items: center;
   padding: 16px 24px;
-  flex: 1;
-  width: 1300px;
+  width: 100%;
 }
 
 .logo img {
@@ -50,12 +51,12 @@ h1 {
   color: silver;
 }
 
+nav {
+  width: 100%;
+}
+
 nav ul {
   margin-right: 24px;
-  float: right;
-  display: flex;
-  align-items: flex-end;
-  width: 1300px;
 }
 
 ul li {
