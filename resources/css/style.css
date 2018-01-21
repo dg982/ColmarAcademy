@@ -77,45 +77,80 @@ a {
 
 .learn {
   background-color: silver;
-  margin: 32px 24px;
+  display: flex;
+  padding: 32px 0px;
 }
 
 .learnpic {
   width: 60%;
   margin-bottom: 32px;
-  margin-right: 24px;
   display: flex;
   flex-direction: column;
+  background-color: silver;
 }
 
 .learnright {
+  width: 40%;
+  float: right;
   flex-direction: column;
-  float: left;
+  padding: 50px 24px;
 }
 
-.learnright .learntxt {
+h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #2F363D;
+}
+
+.learnright h3 {
+  margin-top: 20px;
+  font-size: 28px;
+  line-height: 32px;
+  color: #2F363D;
 }
 
 .learnright .learnbutton {
+  margin-top: 24px;
   padding-top: 8px;
+  flex-direction: column;
   padding-bottom: 8px;
   background-color: #2F363D;
   color: white;
+  text-align: center;
+  width: 75%;
 }
 
 .info {
+  background-color: #F8F8FF;
+  padding: 32px 0px;
 }
 
 .info .practice {
   margin: 32px 24px;
+  background-color: #F8F8FF;
+  display: flex;
+  align-content: space-around;
 }
 
-.practice .practicetxt {
-
+.practice .practicepic {
+  background-color: #F8F8FF;
 }
 
-.practicetxt h2 {
+.practicepic h2 {
   margin-bottom: 24px;
+  margin-top: 32px;
+}
+
+.practicepic h4 {
+  font-size: 28px;
+  color: grey;
+  line-height: 35px;
+}
+
+.practicepic h5 {
+  font-size: 26px;
+  color: #2F363D;
+  padding: 32px 0px;
 }
 
 .info .inforight {
