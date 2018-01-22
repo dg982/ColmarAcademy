@@ -6,7 +6,8 @@ html {
 }
 
 body {
-  width: 1367px;
+  width: 1301px;
+  overflow-x: hidden;
 }
 
 .sitecontainer {
@@ -16,7 +17,7 @@ body {
 header {
   border-bottom: solid 1px #c6c1c1;
   height: 64px;
-
+  width: 1301;
 }
 
 header .logo {
@@ -57,6 +58,8 @@ nav {
 
 nav ul {
   margin-right: 24px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 ul li {
@@ -73,17 +76,20 @@ a {
 
 .intro {
   background-color: silver;
+  padding: 32px 24px;
 }
 
 .learn {
   background-color: silver;
   display: flex;
-  padding: 32px 0px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
-.learnpic {
+.learn .learnpic {
   width: 60%;
   margin-bottom: 32px;
+  padding-left: 24px;
   display: flex;
   flex-direction: column;
   background-color: silver;
@@ -115,25 +121,36 @@ h2 {
   flex-direction: column;
   padding-bottom: 8px;
   background-color: #2F363D;
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.learnbutton a {
   color: white;
   text-align: center;
-  width: 75%;
 }
 
 .info {
   background-color: #F8F8FF;
-  padding: 32px 0px;
+  padding: 32px 24px;
 }
 
 .info .practice {
-  margin: 32px 24px;
   background-color: #F8F8FF;
   display: flex;
-  align-content: space-around;
 }
 
 .practice .practicepic {
   background-color: #F8F8FF;
+  width: 60%;
+  margin: 32px 24px;
+  border-right: silver;
+  margin-right:
+}
+
+.practicepic img {
+  width: 100%;
 }
 
 .practicepic h2 {
@@ -156,15 +173,28 @@ h2 {
 .info .inforight {
   width: 40%;
   margin-left: 24px;
+  padding-top: 32px;
+  border-left: 2px solid silver;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .inforight .infoitem {
+  display: flex;
 }
 
-.infopic {
-  height: auto;
+.infoitem .infopic {
   width: 35%;
-  margin: 16px;
+  padding-left: 38px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction:
+}
+
+.infopic img {
+  border: 1px solid silver;
+  width: 35%;
 }
 
 .infoitem .infotxt {
@@ -181,15 +211,20 @@ h2 {
 .learning {
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: silver;
+  font-weight: bold;
 }
 
 .learning .start {
+  text-align: center;
 }
 
 .learning .main {
   padding-left: 72px;
   margin-top: 32px;
   margin-right: 72px;
+  display: flex;
+  width: 60%;
 }
 
 .main .mainitem {
