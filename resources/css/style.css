@@ -108,7 +108,7 @@ h2 {
   color: #2F363D;
 }
 
-.learnright h3 {
+h3 {
   margin-top: 20px;
   font-size: 28px;
   line-height: 32px;
@@ -186,11 +186,9 @@ h2 {
 }
 
 .infoitem .infopic {
-  width: 35%;
-  padding-left: 38px;
-  padding-bottom: 16px;
-  display: flex;
-  flex-direction:
+  padding: 16px;
+  width: 100%;
+  height: auto;
 }
 
 .infopic img {
