@@ -6,8 +6,7 @@ html {
 }
 
 body {
-  width: 1346px;
-  overflow-x: hidden;
+  width: 2075px;
 }
 
 .sitecontainer {
@@ -16,16 +15,14 @@ body {
 
 header {
   border-bottom: solid 1px #c6c1c1;
-  height: 64px;
-  width: 1301;
 }
 
 header .logo {
-  height: 32px;
   display: flex;
   align-items: center;
   padding: 16px 24px;
   width: 100%;
+  height: 64px;
 }
 
 .logo img {
@@ -33,6 +30,8 @@ header .logo {
   margin-left: 24px;
   align-self: center;
   margin-right: 5px;
+  height: 32px;
+  width: 24px;
 }
 
 .logo span {
@@ -45,11 +44,14 @@ h1 {
 
 #darkgrey {
   color: #2F363D;
-  font-weight:
+  height: 32px;
+  width: 85.3px;
 }
 
 #silver {
   color: silver;
+  height: 32px;
+  width: 96px;
 }
 
 nav {
@@ -99,7 +101,7 @@ a {
   float: right;
   display: flex;
   flex-direction: column;
-  padding: 50px 24px;
+  padding: 165px 24px;
 }
 
 h2 {
@@ -187,13 +189,13 @@ h3 {
 
 .infoitem .infopic {
   padding: 16px;
-  width: 100%;
+  width: 35%;
   height: auto;
 }
 
 .infopic img {
   border: 1px solid silver;
-  width: 35%;
+  height: auto;
 }
 
 .infoitem .infotxt {
