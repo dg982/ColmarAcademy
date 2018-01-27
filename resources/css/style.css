@@ -174,7 +174,7 @@ h3 {
 .info .inforight {
   width: 40%;
   margin-left: 24px;
-  padding-top: 32px;
+  padding: 32px 0px;
   border-left: 1px solid silver;
   margin-top: 0px;
   display: flex;
@@ -184,12 +184,15 @@ h3 {
 .inforight .infoitem {
   display: flex;
   width: 100%;
-  padding: 16px;
+  padding-right: 0px;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
 }
 
 .infoitem .infopic {
   width: 35%;
   height: auto;
+  margin: 32px 38px;
 }
 
 .infopic img {
@@ -202,8 +205,9 @@ h3 {
   margin-top: 50px;
 }
 
-.infoitem h3 {
+.infotxt h3 {
   margin-bottom: 8px;
+  margin-top: 20px;
 }
 
 h4 {
@@ -219,10 +223,36 @@ h4 {
 }
 
 .inforight .guest {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+
+.guest .infopic {
+  width: 35%;
+  height: auto;
+  margin: 32px 38px;
 }
 
 .guestxt {
   line-height: 8px;
+}
+
+.infotxt {
+  width: 65%;
+  margin-top: 50px;
+}
+
+.guestxt h3 {
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
+
+.guestxt a {
+  font-size: 28px;
+  color: lightblue;
+  margin-left: auto;
 }
 
 .learning {
