@@ -261,7 +261,7 @@ h4 {
 
 .learning {
   padding-top: 32px;
-  padding-bottom: 32px;
+  padding-bottom: 120px;
   background-color: silver;
   font-weight: bold;
 }
@@ -272,36 +272,55 @@ h4 {
 
 .start h2 {
   margin-top: 56px;
+  margin-bottom: 80px;
   margin-right: 8px;
   font-size: 56px;
 }
 
 .learning .main {
-  padding-left: 72px;
   margin-top: 32px;
-  margin-right: 72px;
   display: flex;
   width: 60%;
+  padding-left: 184px;
 }
 
 .main .mainitem {
-  margin-bottom: 32px;
 }
 
 .mainitem .mainpic {
-  margin-bottom: 16px;
   height: auto;
-  margin-left: 32px;
+  margin-right: 40px;
 }
 
 .mainitem .maintxt {
-  padding-left: 16px;
   line-height: 8px;
-  padding-bottom: 24px;
+  padding-top: 4px;
+  padding-bottom: 42px;
+  background-color: white;
+  height: 250px;
+  margin-right: 40px;
+  padding-left: 40px;
+  margin-bottom: 0px;
+}
+
+.maintxt h3 {
+  margin-top: 24px;
+}
+
+.maintxt h4 {
+  margin-top: 12px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-size: 29px;
 }
 
 .thesis {
-  padding-top: 32px;
+  padding-top: 96px;
+}
+
+.thesis h2 {
+  text-align: center;
+  font-size: 60px;
 }
 
 .thesis .exhibit {
