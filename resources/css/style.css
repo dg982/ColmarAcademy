@@ -337,7 +337,6 @@ h4 {
   width: 55%;
   background-color: silver;
   margin-left: 24px;
-  margin-bottom: 24px;
   margin-top: 80px;
   border: solid 4px #c6c1c1;
   height: 750px;
@@ -348,7 +347,12 @@ h4 {
   margin-top: 0px;
 }
 
+.exhibitavid video {
+  height: 100%;
+}
+
 .exhibita .exhibitxt {
+  padding-top: 24px;
 }
 
 .exhibitxt h3 {
@@ -390,7 +394,7 @@ h4 {
 .exhibitb .nowthen {
   display: flex;
   padding: 32px 24px;
-  height: 500px;
+  height: 350px;
   background-color: white;
 }
 
@@ -409,6 +413,21 @@ h4 {
 .thesis .urban {
 }
 
+.exhibitatxt {
+  margin-left: 24px;
+  width: 55%;
+  margin-bottom: 64px;
+  border-bottom: solid 2px #c6c1c1;
+}
+
+.exhibitatxt h3 {
+  margin-bottom: 16px;
+}
+
+.exhibitatxt h4 {
+  line-height: 40px;
+}
+
 footer {
   padding-top: 16px;
   padding-left: 24px;
@@ -416,4 +435,10 @@ footer {
 }
 
 footer .footer {
+}
+
+.footer h5 {
+  font-size: 28px;
+  color: grey;
+  line-height: 25px;
 }
