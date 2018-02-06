@@ -136,6 +136,8 @@ a {
   }
   .learn {
     padding-top: 0px;
+    display: flex;
+    flex-direction: column;
   }
   .learn .learnpic {
     width: 100%;
@@ -143,6 +145,7 @@ a {
   }
   .learnpic img {
     width: 645px;
+    height: 380px;
   }
 }
 
@@ -182,6 +185,22 @@ h3 {
 .learnbutton a {
   color: white;
   text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .learnright {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    font-weight: bolder;
+  }
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #2F363D;
+    line-height: 75px;
+  }
 }
 
 .info {
