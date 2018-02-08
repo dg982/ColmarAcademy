@@ -212,6 +212,9 @@ h3 {
     display: flex;
     align-items: center;
   }
+  .practicepic {
+    display: none;
+  }
 }
 
 .info {
@@ -342,12 +345,12 @@ h4 {
 }
 
 @media only screen and (max-width: 760px) {
-  .practicepic {
-    display: none;
+  .info {
+    background-color: #F8F8FF;
+    padding: 0px;
   }
   .info .inforight {
-    margin-left: 15px;
-    padding: 8px 0px;
+    padding: 0px;
     border-left: 0px solid silver;
     margin-top: 0px;
     display: flex;
@@ -355,36 +358,38 @@ h4 {
   }
   .inforight .infoitem {
     display: flex;
-    width: 100%;
     padding-right: 0px;
     border-top: 0px solid silver;
     border-bottom: 0px solid silver;
+    flex-direction: column;
   }
 
   .infoitem .infopic {
-    height: auto;
-    margin: 32px 0px;
+    width: 100%;
+    margin-left: 8px;
   }
 
-  .infopic img {
-    border: 0px solid silver;
-    width: 100%;
+  .infopic .desktop {
+    display: none;
+  }
+
+  .infopic .mobile {
   }
 
   .infoitem .infotxt {
-    width: 65%;
-    margin-top: 50px;
+    margin-left: 24px;
+    line-height: 24px;
   }
 
   .infotxt h3 {
-    margin-bottom: 8px;
-    margin-top: 20px;
+    margin-bottom: 4px;
+    margin-top: 0px;
   }
 
   h4 {
     font-size: 28px;
     color: grey;
-    margin-bottom: 28px;
+    margin-bottom: 14px;
     line-height: 40px;
   }
 
@@ -392,6 +397,7 @@ h4 {
     font-size: 28px;
     color: lightblue;
     margin-left: auto;
+    margin-bottom: 50px;
   }
 }
 
