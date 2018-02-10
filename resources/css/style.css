@@ -9,12 +9,19 @@ body {
   width: 2050px;
 }
 
-.sitecontainer {
+@media only screen and (max-width: 760px) {
+  html {
+    font-family: "Avenir", sans-serif;
+  }
 
+  body {
+    overflow-x: hidden;
+  }
 }
 
 header {
   border-bottom: solid 1px #c6c1c1;
+  height: 104px;
 }
 
 header .logo {
@@ -26,7 +33,6 @@ header .logo {
 }
 
 .logo img {
-  font-size: 30px;
   margin-left: 24px;
   align-self: center;
   margin-right: 5px;
@@ -74,6 +80,9 @@ a {
   font-size: 32px;
 }
 
+.mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 760px) {
   header .logo {
@@ -119,10 +128,14 @@ header .mobile li {
 
 .learn .learnpic {
   width: 56%;
-  margin: 0px 24px 32px 24px;
+  margin: 0px 24px 32px 28px;
   display: flex;
   flex-direction: column;
   background-color: silver;
+}
+
+.learnpic img {
+  margin-left: 8px;
 }
 
 .learnright {
@@ -207,20 +220,20 @@ h3 {
 
 .info {
   background-color: #F8F8FF;
-  padding: 0px 24px;
+  padding-top: 32px;
 }
 
 .info .practice {
   background-color: #F8F8FF;
-  display: flex;
+  padding: 32px;
 }
 
 .practice .practicepic {
   background-color: #F8F8FF;
-  width: 55%;
-  margin: 32px 24px;
-  border-right: silver;
-  padding-top: 32px;
+  width: 56%;
+  margin: 24px 24px 32px 28px;
+  display: flex;
+  flex-direction: column;
 }
 
 .practicepic img {
@@ -818,14 +831,6 @@ footer .footer {
   line-height: 25px;
 }
 
-.footer span {
-  display: flex;
-  justify-content: flex-end;
-}
-
-span h5 {
-}
-
 @media only screen and (max-width: 760px) {
   footer {
     padding-top: 16px;
@@ -842,7 +847,7 @@ span h5 {
     color: grey;
     line-height: 25px;
     margin-top: 24px;
-    margin-bottom: 64px;
+    margin-bottom: 200px;
     margin-left: 32px;
   }
 
