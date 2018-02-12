@@ -861,8 +861,8 @@ footer .footer {
 
 .footer span {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 550px;
+  margin-left: 1250px;
+  float: right;
 }
 
 .footer span a {
